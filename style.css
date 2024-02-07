@@ -1,0 +1,185 @@
+body {
+    background-color: bisque;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 2px solid black;
+    background-color: bisque;
+    border-radius: 0.8rem;
+    
+}
+
+header nav h1 {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 4rem;
+    color: black;
+
+}
+
+#hero img {
+    width: 100%;
+}
+
+#hero {
+    /* width: 100vh; */
+    position: relative;
+}
+
+#hero h1 {
+    position: absolute;
+    z-index: 1;
+    color: bisque;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 4rem;
+
+}
+
+#hero h3 {
+    position: absolute;
+    z-index: 1;
+    color: rgb(156, 147, 135);
+    display: flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    align-items: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+#About h1 {
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    margin-top: 3rem;
+}
+
+.abtext {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 15rem;
+    margin-right: 10rem;
+}
+
+.aboutpra {
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    
+}
+
+#About .abtext img {
+    height: 35rem;
+    width: 35rem;
+}
+
+.serheading h1{
+text-align: center;
+margin: 1rem;
+font-size: 2rem;
+
+}
+
+.serheading h4{
+    text-align: center;
+    opacity: 60%;
+    font-size: 1.2rem;
+    margin-top: -10px;
+    padding: 0%;
+} 
+
+#card {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* align-items: center; */
+    /* width: 80%; */
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+   
+}
+
+#keytext h1{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#keytext{
+   /* text-align: center; */
+   height: 10rem;
+    width: 100%;
+    /* padding: 5rem; */
+    margin-bottom: 3rem;
+}
+
+#keytable{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-around;
+    flex-direction: column; */
+    background-color: rgb(242, 171, 84);
+    text-align: center;
+}
+
+#keytable td{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+#Contact h1{
+    text-align: center;
+    font-size: 2rem;
+}
+#Contact table{
+    background-color: rgb(74, 71, 71);
+    color: white;
+    margin: 1rem 0 2rem 0;
+    padding: 5rem;
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#throw{
+    width: 5rem;
+}
+#Contact{
+    /* width: 100vh; */
+    /* width: 100%; */
+}
